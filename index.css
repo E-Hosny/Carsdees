@@ -21,6 +21,25 @@ body
         color: #ffffff !important;
         padding: 0px 20px !important;
     }
+
+    .dropdown
+    {
+      background-color:#6c6c6c;
+      display: none;
+    }
+    .dropdown-menu
+    {
+      background-color:#0e0e0e;
+    }
+    .dropdown-menu li
+    {
+      padding:10px 0 !important;
+    }
+    .dropdown-menu li :hover
+    {
+      background-color: #2489e9 !important;
+    }
+    
    
     #home
     {
@@ -108,13 +127,80 @@ body
     margin: 10px 5px;
    }
   
-
-   
    .carousel-indicators
    {
     position: absolute;
     top: 100%;
    }
+
+
+   /***********Our Offer***********/
+   #our-offer h1
+   {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #171717;
+   }
+   #our-offer h4
+   {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+    color: #6c6c6c;
+   }
+   
+
+   /***********about us************/
+   #about-us .about-us-style
+   {
+    opacity: 0.90;
+    background: #2489e9;
+    position: relative;
+   }
+
+   #about-us h2
+   {
+    font-family: "Roboto";
+    opacity: 0.90;
+    background: #2489e9;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+   }
+   #about-us p
+   {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+   }
+   #about-us button
+   {
+    font-family: "Roboto";
+     font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    border-color: #f5f5f5;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 5px 40px;
+    position: absolute;
+    right:7%;
+  
+   }
+
    /***********Our Fleet**********/
    .banner-nav
    {
@@ -488,7 +574,7 @@ body
     color: #2489e9;
    }
 
-  /***************about us *****************************/
+  /***************about*****************************/
   .about-link
   {
    text-decoration: underline blue 2px;
@@ -790,14 +876,15 @@ body
 
  /*****************responsive********************/
    @media screen and (max-width: 1200px) {
-    .test
+    .navbar-nav
     {
         display: none;
     }
-    .myList
+    .dropdown
     {
-        display: block;
+       display: block;
     }
+
      .sec-footer
     {
         height: 120vh;
