@@ -10,6 +10,7 @@ body
     {
         text-decoration: underline blue 2px;
     }
+
     nav a 
     {
         font-family: "Roboto" !important;
@@ -21,8 +22,6 @@ body
         padding: 0px 20px !important;
     }
    
-
-
     #home
     {
        background-image: url(images/home/18\ x\ 12\ Banner.png);
@@ -393,7 +392,6 @@ body
         font-style: normal;
         text-align: center;
         color: #6c6c6c;
-        width: 30%;
       }
       #our-news p
       {
@@ -802,7 +800,7 @@ body
     }
      .sec-footer
     {
-        height: 100vh;
+        height: 120vh;
     } 
 
    }
