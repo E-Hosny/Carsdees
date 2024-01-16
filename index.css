@@ -1,11 +1,28 @@
-
+body
+{
+    font-family: "Roboto";
+    cursor: pointer;
+    background-image: url(images/all/Group\ 3230.png);
+}
 /**********************home*************************************/
- body
+ 
+    .home-nav .home-link 
     {
-        font-family: "Roboto";
-        font-weight: bold;
+        text-decoration: underline blue 2px;
     }
-    
+    nav a 
+    {
+        font-family: "Roboto" !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        text-align: right !important;
+        color: #ffffff !important;
+        padding: 0px 20px !important;
+    }
+   
+
+
     #home
     {
        background-image: url(images/home/18\ x\ 12\ Banner.png);
@@ -31,40 +48,15 @@
         
     }
 
-    .my-nav
-    {
-        position:fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        z-index:999;
-        background-color:rgba(23,23,23,0.3)
-    }
-    .myList
-    {
-        display: none;
-    }
-
- 
-   
-
-    .nav-link
-    {
-        font-family: "Roboto";
-        font-size: 20px;
-        font-weight: bold;
-        font-style: normal;
-        text-align: right;
-        color: #ffffff;
-    }
-
 
    .home-layer h1
    {
+    font-family: "Roboto";
     font-size: 80px;
     font-weight: bold;
-    font-family: "Roboto";
-    padding-bottom: 10px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
    }
    .home-layer h3
    {
@@ -84,30 +76,40 @@
     margin: auto;
     padding-bottom: 10px;
    }
-   .home-layer button
+   
+
+
+   .home-layer .b1
    {
-    font-size: 18px;
     border-color: #f5f5f5;
     border-width: 1px;
     border-style: solid;
     border-radius: 3px;
     background-color: transparent;
-    color: #f5f5f5 ;
-    padding:10 50px;
-    margin: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff; 
+    padding: 5px 40px;
+    margin: 10px 5px;
+
    }
    .home-layer .b2
    {
-    font-size: 18px;
-    border-color: #f5f5f5;
-    border-width: 1px;
-    border-style: solid;
     border-radius: 3px;
-    background-color: #006bd1;
-    color: #f5f5f5 ;
-    padding:10 50px;
-    margin: 10px;
+    background: #006bd1;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    border:1px solid #006BD1;
+    padding: 5px 40px;
+    margin: 10px 5px;
    }
+  
+
    
    .carousel-indicators
    {
@@ -115,26 +117,30 @@
     top: 100%;
    }
    /***********Our Fleet**********/
-
-   .banner
+   .banner-nav
    {
+    background-image: url(images/all/18\ x\ 12\ Banner.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 25vh;
     position: relative;
    }
-   
-   .layer
+   .layer-nav
    {
-       position: absolute;
-       text-align: center;
-       left: 0;
-       right: 0;
-       top: 0;
-       bottom: 0;
-       background-color: rgba(23,23,23,0.5);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
+    background-color: rgba(23, 23,23,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
    }
+
+   .fleet-nav .fleet-link 
+    {
+        text-decoration: underline blue 2px;
+    }
+
+    
    #our-fleet h1
    {
     font-family: "Roboto";
@@ -153,79 +159,177 @@
     text-align: center;
     color: #6c6c6c;
    }
-
-   .product h5
+   #our-fleet .card-body h5
    {
-        font-size: 15px;
-        font-weight: 500;
-        font-style: normal;
-        text-align: center;
-        color: #c0c0c0;
-   }
-   .product h6
-   {
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
     text-align: left;
     color: #171717;
    }
-   .product .myBtn
+   #our-fleet .card-body .date
    {
-     border-radius: 3px;
-     background: #006bd1;
-     padding: 10px 40px;
-     color: #ffffff;
-     font-size: 16px;
-     font-weight: normal;
-     font-style: normal;
-    margin-top: 20px;
-      color: #ffffff;
+    border-color: #c0c0c0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    background: #ffffff;
+    padding:0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #171717;
    }
-   .product .details
+   #our-fleet .card-body span
    {
+    font-family: "Roboto";
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
     text-align: left;
     color: #393939;
    }
-   .product
+   #our-fleet .card-footer h5
    {
-    margin-top: 30px;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #c0c0c0;
    }
+   #our-fleet .card-footer p
+   {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #171717;
+   }
+   #our-fleet .card-footer button
+   {
+    border-radius: 3px;
+    background: #006bd1;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    border:none;
+    padding: 12px 52px;
+    margin-bottom: 10px;
+   }
+   #our-fleet .card
+   {
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+    background: #ffffff
+   }
+   
+  
+   
     
 
    /*******************cars********************************/
+
+   .cars-link
+   {
+    text-decoration: underline blue 2px;
+   }
+   #cars h1
+   {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #171717;
+   }
    #cars h4
    {
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     color: #6c6c6c;
-    padding-top: 0;
+    text-align: left ;
    }
-   #cars p
+   #cars .card
    {
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 10px;
+   }
+   #cars .small-card
+   {
+    border-radius: 21px !important;
+   }
+   #cars .about-card
+   {
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 11px;
+    background: #ffffff
+   }
+   #cars .about-card h3
+   {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+    color: #171717;
+   }
+   #cars .about-card p
+   {
+    font-family: "Roboto";
     font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #c0c0c0;
+   }
+   #cars .about-card p span
+   {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
     font-style: normal;
     text-align: left;
     color: #171717;
    }
-
-   .about-car h5
+   #cars .about-card  .myPar
    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        font-style: normal;
+        text-align: left;
+        color: #171717;
+   }
+   #cars .about-card  h5
+   {
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     text-align: left;
     color: #171717;
    }
-   .about-car h6
+   #cars .about-card  h6
    {
     font-size: 12px;
     font-weight: 500;
@@ -233,82 +337,141 @@
     text-align: left;
     color: #2489e9;
    }
-   .about-car button
+   #cars .about-card button
    {
-    background-color: #006bd1;
-    color: #f5f5f5;
-    border: none;
-    padding: 5px 20px;
-    margin: 20px auto;
-    width: 75%;
-   }
-   .muted
-   {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: normal;
     font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 3px;
+    background: #006bd1;
+    border:none;
     text-align: center;
-    color: #c0c0c0;
-    }
-    .progress
-    {
-        height: 7px;
-    }
+    padding: 10px 0 ;
+    margin-top: 26px;
+   }
+ 
     .blue-icon
     {
-        height: 47px;
+     
+        border-radius: 7px;
+        background: #006bd1;
         width: 47px;
-        background-color: #006bd1;
+        height: 47px;;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
     }
     .blue-icon i
     {
         color: #ffffff;
-
-        
     }
       /***************************our news********************************************/
-   #our-news h1
+
+      .news-link
+      {
+        text-decoration: underline blue 2px;
+
+      }
+      #our-news h1
+      {
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+        color: #171717;
+      }
+      #our-news h4
+      {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        font-style: normal;
+        text-align: center;
+        color: #6c6c6c;
+        width: 30%;
+      }
+      #our-news p
+      {
+        font-family: "Roboto";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        font-style: normal;
+        text-align: left;
+        color: #171717;
+      }
+      #our-news h5
+      {
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        text-align: left;
+        color: #171717;
+      }
+      #our-news h6
+      {
+        font-family: "Alexandria";
+        font-size: 8px;
+        font-weight: normal;
+        line-height: 20px;
+        font-style: normal;
+        text-align: right;
+        color: #0e0e0e;
+      }
+      #our-news .card
+      {
+        border-color: #f5f5f5;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 9px;
+        background: #ffffff;
+      }
+      #our-news button
+      {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+        color: #ffffff;
+        border-radius: 3px;
+        background: #006bd1;
+        border: none ;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding: 10px 0;
+
+      }
+
+
+
+
+  /************************news datails ***************************/
+
+   #news-inside .my-line
    {
+     color: #6c6c6c;
+     width: 95%;
+     margin: auto;
+   }
+   #news-inside h2
+   {
+    font-family: "Roboto";
     font-size: 36px;
     font-weight: bold;
-    font-style: normal;
-    text-align: center;
-    color: #171717;
-   }
-   #our-news h4
-   {
-    font-weight: 500;
-    line-height: 22px;
-    font-style: normal;
-    text-align: center;
-    color: #6c6c6c;
-   }
-   #our-news p
-   {
-    font-size: 14px;
-    font-weight: 300;
-     line-height: 20px;
     font-style: normal;
     text-align: left;
     color: #171717;
    }
-   #our-news button
-   {
-     background-color: #006bd1;
-     color: #f5f5f5;
-     border: none;
-     padding: 10px 40px;
-     margin-top: 10px;
-   }
-   .news-icon
-   {
-    height: 20px;
-   }
-  /************************news inside ***************************/
-
    #news-inside p
    {
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: normal;
     line-height: 25px;
@@ -328,10 +491,14 @@
    }
 
   /***************about us *****************************/
+  .about-link
+  {
+   text-decoration: underline blue 2px;
+  }
 
   #about .blue-square
   {
-    width: 455px;
+    width: 480px;
     height: 500px;
     border-radius: 9px;
     background: #006bd1;
@@ -340,8 +507,8 @@
   #about img
   {
     position: absolute;
-    top:5%;
-    left:5%;
+    top:3%;
+    left:4%;
   }
   #about h5
   {
@@ -446,14 +613,32 @@
     color: #6c6c6c;
   }
   /******************contact************************/
+
+  .contact-link
+   {
+    text-decoration: underline blue 2px;
+   }
   #contact .white-div
   {
     background-color: #FFFFFF;
-    padding: 20px 0 ;
+    padding: 13px 0 ;
     border-radius: 5%;
     border: 1px solid ;
     border-color: #F5F5F5;
     
+  }
+  #contact .card
+  {
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+    background: #ffffff;
+  }
+  #contact img
+  {
+    border-radius: 9px;
+    border: none;
   }
   #contact .blue-circle
   {
@@ -552,7 +737,7 @@
         background-image: url(images/footer/2010-mercedes-benz-s.png);
         background-size: 100% 100% ;
         background-position: center center;
-        height: 40vh;
+        height: 45vh;
         position: relative;
    }
    .sec-footer button
