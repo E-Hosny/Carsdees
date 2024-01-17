@@ -37,7 +37,7 @@ body
     }
     .dropdown-menu li :hover
     {
-      background-color: #2489e9 !important;
+      background-color: #006bd1 !important;
     }
     
    
@@ -159,8 +159,18 @@ body
    {
     opacity: 0.90;
     background: #2489e9;
-    position: relative;
    }
+   #about-us .about-us-content
+   {
+     width:85%;
+   }
+   #about-us .img-style
+   {
+      height: 450px;
+   }
+  
+  
+   
 
    #about-us h2
    {
@@ -186,7 +196,7 @@ body
    #about-us button
    {
     font-family: "Roboto";
-     font-size: 16px;
+    font-size: 16px;
     font-weight: normal;
     font-style: normal;
     color: #ffffff;
@@ -195,10 +205,8 @@ body
     border-style: solid;
     border-radius: 3px;
     background-color: transparent;
-    padding: 5px 40px;
-    position: absolute;
-    right:7%;
-  
+    padding: 5px 50px;
+    
    }
 
    /***********Our Fleet**********/
