@@ -590,8 +590,8 @@ body
 
   #about .blue-square
   {
-    width: 480px;
-    height: 500px;
+    width: 455px;
+    height: 550px;
     border-radius: 9px;
     background: #006bd1;
     position: relative;
@@ -898,4 +898,9 @@ body
         height: 120vh;
     } 
 
+   }
+   
+   .owl-carousel button li
+   {
+    background-color: #006BD1 !important;
    }
