@@ -29,7 +29,8 @@ body
     }
     .dropdown-menu
     {
-      background-color:#0e0e0e;
+      background-color: rgba(169, 169, 169, 0.8);
+      padding: 0 !important;
     }
     .dropdown-menu li
     {
@@ -109,9 +110,8 @@ body
     font-style: normal;
     text-align: left;
     color: #ffffff; 
-    padding: 5px 40px;
-    margin: 10px 5px;
-
+    padding: 5px 30px;
+    margin: 0 10px;
    }
    .home-layer .b2
    {
@@ -123,14 +123,22 @@ body
     text-align: left;
     color: #ffffff;
     border:1px solid #006BD1;
-    padding: 5px 40px;
-    margin: 10px 5px;
+    padding: 5px 30px;
    }
   
    .carousel-indicators
    {
-    position: absolute;
-    top: 100%;
+    position: unset;
+   }
+   .home-indicators button
+   {
+    background-color: #F5F5F5 !important;
+    padding:1px 0px !important;
+   }
+   .home-indicators .active
+   {
+    background-color:#2489e9 !important;
+    padding: 1px 20px !important;
    }
 
 
@@ -152,15 +160,15 @@ body
     text-align: center;
     color: #6c6c6c;
    }
-   .carousel-indicators button
+   
+   .offer-indicators button
    {
     background-color: #707070 !important;
    }
-   .carousel-indicators .active
+   .offer-indicators .active
    {
-    background-color:#2489e9 !important;
+    background-color: #2489e9 !important;
    }
-   
    
 
    /***********about us************/
@@ -599,10 +607,11 @@ body
 
   #about .blue-square
   {
-    width: 455px;
+    width: 80%;
     height: 550px;
     border-radius: 9px;
     background: #006bd1;
+    margin: 0px auto;
     position: relative;
   }
   #about img
@@ -841,6 +850,17 @@ body
         height: 45vh;
         position: relative;
    }
+
+    .footer-layer
+   {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(23,23,23,0.7);
+   }
+
    .sec-footer button
    {
      background-color: #006BD1;
@@ -881,18 +901,9 @@ body
     color: #ffffff;
    }
 
-   .footer-layer
-   {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(23,23,23,0.7);
-   }
 
  /*****************responsive********************/
-   @media screen and (max-width: 1200px) {
+   @media screen and (max-width: 912px) {
     .navbar-nav
     {
         display: none;
@@ -904,12 +915,9 @@ body
 
      .sec-footer
     {
-        height: 120vh;
+        height: 100vh;
     } 
 
    }
    
-   .owl-carousel button li
-   {
-    background-color: #006BD1 !important;
-   }
+   
