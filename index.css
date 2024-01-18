@@ -152,6 +152,15 @@ body
     text-align: center;
     color: #6c6c6c;
    }
+   .carousel-indicators button
+   {
+    background-color: #707070 !important;
+   }
+   .carousel-indicators .active
+   {
+    background-color:#2489e9 !important;
+   }
+   
    
 
    /***********about us************/
