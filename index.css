@@ -910,7 +910,8 @@ body
 
 
  /*****************responsive********************/
-   @media screen and (max-width: 912px) {
+
+   @media screen and (max-width:912px) {
     .navbar-nav
     {
         display: none;
@@ -919,12 +920,24 @@ body
     {
        display: block;
     }
+    
+   }
 
+   @media  screen and (min-width:390px) and (max-width: 912px)  {
      .sec-footer
     {
         height: 100vh;
     } 
 
+   }
+
+   @media screen and  (max-width:380px) {
+    .sec-footer
+    {
+ 
+      height: 130vh;
+    }
+    
    }
    
    
