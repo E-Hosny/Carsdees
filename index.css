@@ -5,7 +5,7 @@ body
     background-image: url(images/all/Group\ 3230.png);
 }
 /**********************home*************************************/
- 
+   
     .home-nav .home-link 
     {
         text-decoration: underline blue 2px;
@@ -29,11 +29,13 @@ body
     }
     .dropdown-menu
     {
+      width: 300px !important;
       background-color: rgba(169, 169, 169, 0.8);
       padding: 0 !important;
     }
     .dropdown-menu li
     {
+      
       padding:10px 0 !important;
     }
     .dropdown-menu li :hover
@@ -41,10 +43,6 @@ body
       background-color: #006bd1 !important;
     }
 
-  
-    
-    
-    
    
     #home
     {
@@ -742,7 +740,10 @@ body
     border-radius: 5%;
     border: 1px solid ;
     border-color: #F5F5F5;
-    
+  }
+  #contact .white-div a
+  {
+    color: #6c6c6c;
   }
   #contact .card
   {
@@ -919,8 +920,7 @@ body
     .dropdown
     {
        display: block;
-    }
-    
+    }    
    }
 
    @media  screen and (min-width:390px) and (max-width: 912px)  {
